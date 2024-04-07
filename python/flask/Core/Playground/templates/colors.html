@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .nice_box{
+        height: 150px;
+        width: 150px;
+        margin: 20px;
+        border: 2px solid black;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
+<body>
+    <h1>Welcome!</h1>
+    <div class="container">
+        {% for i in range(0,num) %}
+            {% if color == 'rebeccapurple'%}
+                <div class="nice_box" style="background-color :rebeccapurple ;"></div>
+            {%endif %}
+            {% if color == 'peachpuff' %}
+                <div class="nice_box" style="background-color :peachpuff ;"></div>
+            {%endif%}
+            
+        {%endfor%}
+    </div>
+
+</body>
+</html>
