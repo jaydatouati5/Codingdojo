@@ -1,7 +1,7 @@
 # 1. TASK: print "Hello World"
 print("Hello world")
 # 2. print "Hello Noelle!" with the name in a variable
-name = "Noelle"
+name = "jayda"
 print("Hello ", name)	# with a comma
 print("Hello " + name)	# with a +
 # 3. print "Hello 42!" with the number in a variable
