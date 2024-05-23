@@ -106,20 +106,22 @@
 
 
 # #12
-# b = 500
-# print(b)
-# def foobar():
-#     b = 300
-#     print(b)
-#     return b
-# print(b)
-# foobar()
-# print(b)
+b = 500
+print(b)
+def foobar():
+    b = 300
+    print(b)
+    return b
+print(b)
+print(foobar())
+print(b)
 # output 
-# >>> 300
+#>>>>
+#500
 #500
 #300
-#500  ////////////////////////////////////////wrong answer///////////////////////////////////////////////////////////////
+#500
+
 
 # #13
 # b = 500
@@ -132,7 +134,8 @@
 # b=foobar()
 # print(b)
 # output 
-# >>> 500
+# >>> 
+#500
 #300
 #500
 #300
@@ -153,19 +156,21 @@
 
 
 # #15
-def foo():
-    print(1)
-    x = bar()
-    print(x)
-    return 10
-def bar():
-    print(3)
-    return 5
-y = foo()
-print(y)
+# def foo():
+#     print(1)
+#     x = bar()
+#     print(x)
+#     return 10
+
+# def bar():
+#     print(3)
+#     return 5
+
+# y = foo()
+# print(y)
 # output 
-# >>> 1
-#10
-#3
+# >>> 
+# 1
 #5
-#1 ////////////////////////////////////////wrong answer///////////////////////////////////////////////////////////////
+#5
+# 10

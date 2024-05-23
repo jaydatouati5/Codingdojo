@@ -5,3 +5,8 @@ function hide(element){
 function ChangeText(element){
     element.innerText=("Logout")
 }
+
+
+let
+var
+const
