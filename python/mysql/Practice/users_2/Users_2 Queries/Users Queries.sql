@@ -1,0 +1,21 @@
+-- insert into users (first_name, last_name, email, created_at, updated_at)
+-- values ("Jayda", "Touati", "Jayda@gmail.com", now(), now()),
+-- 	   ("Isra", "Touati", "Isra@gmail.com", now(), now()),
+--        ("Safa", "Touati", "Safa@gmail.com", now(), now());
+-- select * from users;
+-- select * from users
+-- where email = "Jayda@gmail.com"
+-- select * from users
+-- where id = 3
+-- update users
+-- set last_name = "Pancakes"
+-- where id = 3
+-- select * from users;
+-- delete from users
+-- where id = 2
+-- select * from users;
+-- select first_name
+-- from users
+-- select * from users
+-- order by first_name desc
+select * from users;
