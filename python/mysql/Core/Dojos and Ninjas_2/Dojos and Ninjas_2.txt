@@ -1,0 +1,98 @@
+ 1)*** Query: Create 3 new dojos:
+
+ insert into dojos ( name, created_at, updated_at)
+ values ("New York", now(), now()),("Boston", now(), now()),("Texas", now(), now());
+
+------------------------------------------------------------------------------------------------------------------------
+ Before i delete I SET SQL_SAFE_UPDATES = 0;
+
+ 2)*** Query: Delete the 3 dojos you just created:
+
+ delete from dojos 
+ then I select * from dojos to check 
+-----------------------------------------------------------------------------------------------------------------------------------
+ 3)*** Query: Create 3 new more dojos:
+
+ insert into dojos ( name, created_at, updated_at)
+ values ("Gabes", now(), now()),("Sousse", now(), now()),("Tunis", now(), now());
+
+-------------------------------------------------------------------------------------------------------------------------------------
+ 4)*** Query: Create 3 ninjas that belong to the first dojo:
+
+ insert into ninjas ( first_name, last_name, age, created_at, updated_at, dojo_id)
+ values ("Jayda","Touati", "21", now(), now(),4),("Safa","Touati", "34", now(), now(),4),("Isra", "Touati","20", now(), now(),4);
+
+-------------------------------------------------------------------------------------------------------------------------------------
+ 5)*** Query: Create 3 ninjas that belong to the second dojo:
+
+ insert into ninjas ( first_name, last_name, age, created_at, updated_at, dojo_id)
+ values ("Bob","Jhon", "50", now(), now(),5),("Jessica","Tom", "46", now(), now(),5),("Jennifer", "Lopez","55", now(), now(),5);
+
+-------------------------------------------------------------------------------------------------------------------------------------
+ 6)*** Query: Create 3 ninjas that belong to the third dojo:
+
+ insert into ninjas ( first_name, last_name, age, created_at, updated_at, dojo_id)
+ values ("Jake", "Smith","25", now(), now(),6),("Mark", "Zuckerberg","20", now(), now(),6),("Elon", "Musk","43", now(), now(),6);
+
+-------------------------------------------------------------------------------------------------------------------------------------
+ 7)*** Query: Retrieve all the ninjas from the first dojo:
+
+ select dojos.id , dojos.name, ninjas.first_name, ninjas.last_name
+ from dojos
+ join ninjas on dojos.id = ninjas.dojo_id 
+ where dojos.id = 4 ;
+
+ ********or use this query******
+
+ select dojos.id , dojos.name, ninjas.first_name, ninjas.last_name 
+ from dojos
+ left join ninjas on dojos.id = ninjas.dojo_id
+ where dojos.id = (select dojo_id from ninjas order by dojo_id asc limit 1)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+ 8)*** Query: Retrieve all the ninjas from the last dojo:
+
+  select dojos.id , dojos.name, ninjas.first_name, ninjas.last_name
+ from dojos
+ join ninjas on dojos.id = ninjas.dojo_id 
+ where dojos.id = 6 ;
+
+ ********or use this query******
+
+ select dojos.id , dojos.name, ninjas.first_name, ninjas.last_name
+ from dojos
+ left join ninjas on dojos.id = ninjas.dojo_id
+ where dojos.id = (select dojo_id from ninjas order by dojo_id desc limit 1)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+ 9)*** Query: Retrieve the last ninja's dojo:
+
+ select ninjas.id, ninjas.first_name ,ninjas.last_name, dojos.name as dojo_of_ninja
+ from dojos
+ join ninjas on dojos.id= ninjas.dojo_id
+ where ninjas.id = 9;
+
+ ********or use this query******
+
+ select ninjas.id, ninjas.first_name ,ninjas.last_name, dojos.name as dojo_of_ninja
+ from ninjas
+ join dojos on dojos.id = ninjas.dojo_id
+ where ninjas.id order by ninjas.id desc limit 1
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
