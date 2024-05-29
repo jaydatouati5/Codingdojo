@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+td{
+    width: 60px;
+    height: 60px;
+}
+.color1{
+    background-color: blue;
+}
+.color2{
+    background-color: tomato;
+}
+
+h1{
+    box-sizing: border-box;
+    width: 100px;
+    height: 40px;
+}
+table{
+    border-collapse: collapse;
+}

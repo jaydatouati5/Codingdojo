@@ -1,22 +1,23 @@
 from flask import Flask,render_template
-app=Flask(__name__)
 
-@app.route('/')
+app = Flask(__name__)
+
+
+@app.route("/")
 def home():
-    return "Hello flask!"
+    return "welcome"
 
-@app.route('/play')
-def play():
-    return render_template("index.html")
+@app.route("/play")
+def level_1():
+    return render_template ("level1.html")
 
+@app.route("/play/<int:num>")
+def level_2(num):
+    return render_template("level2.html" , num = num)
 
-@app.route('/play/<int:num>')
-def play_num(num):
-    return render_template("play_num.html" , num = num )
-
-@app.route('/play/<int:num>/<color>')
-def colors(num,color):
-    return  render_template('colors.html', num = num , color =color)
+@app.route("/play/<int:num>/<string:color>")
+def level_3(num , color):
+    return render_template("level3.html" , num = num, color = color)
 
 if __name__=="__main__":
     app.run(debug=True)
