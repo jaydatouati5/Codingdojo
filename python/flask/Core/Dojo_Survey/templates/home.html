@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Survey</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            background: linear-gradient(108deg, rgba(24,24,25,1) 0%, rgba(3,3,80,1) 35%, rgba(69,96,247,0.8547794117647058) 100%);
+            border: 1px solid black;
+            padding: 15px;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+        legend{
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            font-weight: bolder;
+            border-radius: 15px;
+            background: linear-gradient(279deg, rgba(24,24,25,1) 0%, rgba(80,49,3,0.7259278711484594) 7%, rgba(182,182,50,0.8547794117647058) 100%);
+        }
+        label{
+            color: white;
+        }
+        input ,select{
+            margin-bottom: 8px;
+            height: 20px;
+            border-radius: 5px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        button{
+            width: 65px;
+            background-color: rgb(99, 223, 115);
+            color: black;
+            border-radius: 5px;
+            font-family: sans-serif;
+            font-weight: bold;
+            box-shadow:2px 2px 2px rgb(107, 105, 105);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: rgb(230, 175, 25);">Dojo Survey</h1>
+
+        <!-- ! ************  form starting ****************-->
+        <fieldset>
+            <legend>Personal Informations</legend>
+            <form action="/process" method="post">
+
+                <!--! name -->
+                <label for="name">Name:</label>
+                <input type="text" name="name">
+
+                <!--! dojo location -->
+                <label for="dojo_location">Dojo Location:</label>
+                <select name="dojo_location">
+                    <option>-- Select a Location --</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="NewYork">NewYork</option>
+                    <option value="Califonia">Califonia</option>
+                    <option value="Boston">Boston</option>
+                </select>
+
+                <!--! favorite language -->
+                <label for="favorite_language">Favorite language:</label>
+                <select name="favorite_language">
+                    <option>-- Favorite language --</option>
+                    <option value="Python">Python</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="C++">C++</option>
+                </select>
+                <label for="comment">Comments:</label>
+
+                <!--! comment-->
+                <textarea name="comment" style="margin-bottom: 8px;"></textarea>
+                <!--! checkbox-->
+                <div>
+                    <label for="validation">Are you agree with our policies?</label>
+                    <input type="checkbox" checked>
+                </div>
+
+                <button>Submit</button>
+            </form>
+        </fieldset>
+    </div>
+    
+
+</body>
+</html>

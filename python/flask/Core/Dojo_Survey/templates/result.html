@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Infos</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            width: 350px;
+            border: 1px solid grey;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            box-sizing: border-box;
+            background: linear-gradient(279deg, rgba(182,182,50,0.8547794117647058) 17%, rgba(171,171,42,1) 38%, rgba(83,80,75,0.7259278711484594) 74%);
+        }
+        #go_back{
+            display: flex;
+            justify-content: end;
+            width: 250px;
+        }
+        a{
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            background-color: rgb(192, 113, 113);
+            box-shadow: 2px 2px 2px rgb(88, 85, 85);
+        }
+        h2 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgba(35, 37, 187, 0.74);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Dojo Informations</h1>
+        
+        <h2>Hello "{{full_name}}"</h2>
+
+        <p>Dojo Location: <strong>{{dojo_loc}}</strong></p>
+        <p>Favorite Language: <strong>{{language}}</strong></p>
+
+        {% if feedback == '' %}
+            <p>comment: <strong> You have no feedback</strong></p>
+        {% else %}
+            <p>comment: <strong>{{feedback}}</strong> </p>
+        {% endif %}
+        
+        <div id="go_back">
+            <a href="/">Home</a>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
