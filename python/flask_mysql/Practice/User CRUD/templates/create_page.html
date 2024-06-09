@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>users CR </title>
+    <style>
+        *{
+            margin-bottom: 10px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            width: 450px;
+        }
+        input{
+            height: 25px;
+        }
+        button{
+            background-color: rgb(102, 216, 57);
+            height: 30px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>create User</h1>
+        <form action="/create_user" method="post">
+
+            <label for="first_name"> first name:</label><br>
+            <input type="text" name="first_name"><br>
+
+            <label for="last_name"> last name:</label><br>
+            <input type="text" name="last_name"><br>
+            
+            <label for="email"> email:</label><br>
+            <input type="text" name="email"><br>
+
+            <button > create </button>
+
+        </form>
+        <a href="/">back to home</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>users CR </title>
+    <style>
+        *{
+            margin-bottom: 10px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            width: 450px;
+        }
+        input{
+            height: 25px;
+        }
+        button{
+            background-color: rgb(57, 166, 216);
+            height: 30px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Update User</h1>
+        <form action="/user_update" method="post">
+
+            <input type="number" name="id" value="{{user.id}}" hidden>
+
+            <label for="first_name"> first name:</label><br>
+            <input type="text" name="first_name" value="{{user.first_name}}"><br>
+
+            <label for="last_name"> last name:</label><br>
+            <input type="text" name="last_name" value="{{user.last_name}}"><br>
+            
+            <label for="email"> email:</label><br>
+            <input type="text" name="email" value="{{user.email}}"><br>
+
+            <button > update </button>
+
+        </form>
+        <a href="/">back to home</a>
+    </div>
+</body>
+</html>

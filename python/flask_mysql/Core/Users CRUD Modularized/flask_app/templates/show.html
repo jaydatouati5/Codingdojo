@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User CRUD</title>
+    <style>
+        fieldset{
+            width: 500px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px grey;
+            background-color: antiquewhite;
+        }
+        .btn{
+            width: 50px;
+            height: 25px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+        .btns{
+            display: flex;
+            gap: 15px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <fieldset>
+        <h1>user {{user.id}}</h1>
+        <p>full name: {{user.first_name}} {{user.last_name}}</p>
+        <p>email: {{user.email}}</p>
+        <p>created at: {{user.created_at}}</p>
+    </fieldset>
+    <div class="btns">
+        <div class="btn" style="background-color: rgb(0, 132, 255);"><a href="/">home</a></div>
+        <div class="btn" style="background-color: rgb(122, 204, 67);"><a href="/updating_page/{{user.id}}">update</a></div>
+        <div class="btn" style="background-color: red;"><a href="/user/delete/{{user.id}}">delete</a></div>
+    </div>
+    
+    
+</body>
+</html>
