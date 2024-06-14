@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .new_dojo{
+            width: 200px;
+            height: fit-content;
+            background-color: rgb(37, 37, 37);
+            padding: 7px;
+            box-sizing: border-box;
+            color: white;
+            margin-bottom: 15px;
+        }
+        .all_dojo {
+            width: 200px;
+            height: auto;
+            background-color: rgb(37, 37, 37);
+            padding: 7px;
+            box-sizing: border-box;
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        h1{
+            color: rgb(0, 110, 255);
+            text-align: center;
+        }
+        input{
+            height: 30px;
+            width: 170px;
+            border-radius: 6px;
+            margin:10px 0px 10px 0px;
+        }
+        #add_dojo{
+            background-color: rgb(0, 81, 255);
+            color: white;
+            margin: 15px 0px;
+            height:30px;
+            border-radius: 6px;
+            width: 100px;
+        }
+        a{
+            font-size: large;
+            font-weight: bold;
+            font-family: sans-serif;
+            color: rgb(0, 38, 255);
+            margin-left: 25px;
+        }
+        body{
+            padding: 15px;
+            box-sizing: border-box;
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+        #atag{
+            color: rgb(247, 197, 106);
+            font-weight: bold;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="new_dojo">
+            <h1>New Dojo </h1>
+            <form action="/add_dojo" method="post">
+                <label for="name" name="name"> Name:</label>
+                <input type="text" name="name">
+                <input type="submit" value="Add dojo" id="add_dojo">
+            </form>
+        </div>
+        <div class="all_dojo">
+            <h1>All Dojos</h1>
+
+            {% for d in all_dojos %}
+                <p>
+                    <a href="/dojo/{{d.id}}" id="atag" style="text-decoration: none;">{{d.name}}</a>
+                </p>
+            {% endfor %}
+        </div>
+    </div>
+    <a href="/ninjas/new" methods>Add Ninja</a>
+</body>
+</html>

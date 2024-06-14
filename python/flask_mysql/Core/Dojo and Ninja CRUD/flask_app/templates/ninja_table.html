@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        table{
+            border-collapse: collapse;
+            width: 800px;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        th ,td{
+            background-color: rgb(158, 222, 231);
+            width: auto;
+            height: 30px;
+            border-top: 1px solid rgb(108, 175, 202);
+
+        }
+        a{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+        }
+        .home{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{dojo.name}} ninjas</h1>
+    <table>
+        <thead>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </thead>
+        <tbody>
+            {% for ninja in dojo.ninjas %}
+                <tr>
+                    <td>{{ninja.first_name}}</td>
+                    <td>{{ninja.last_name}}</td>
+                    <td>{{ninja.age}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <div>
+        <a href="/" id="home">Home</a>
+    </div>
+    
+    
+</body>
+</html>

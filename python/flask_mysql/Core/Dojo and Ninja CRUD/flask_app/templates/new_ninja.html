@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: rgb(41, 40, 40);
+            width: 220px;
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        select{
+            width: 180px;
+            margin: 15px 0px;
+            height: 30px;
+            border-radius: 6px;
+        }
+        input{
+            width: 180px;
+            margin:0px 0px 15px 0px;
+            height: 30px;
+            border-radius: 6px;
+        }
+        h1{
+            color: rgb(0, 110, 255);
+            text-align: center;
+        }
+        button{
+            background-color: rgb(0, 81, 255);
+            color: white;
+            margin-top: 10px;
+            height:30px;
+            border-radius: 6px;
+            width: 100px;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>New Ninja</h1>
+        <form action="/create/ninja" method="post">
+
+            <!-- !dojo select -->
+            <div>
+                <label for="dojo" >Dojo:</label><br>
+                <select name="dojo_id">
+                    {% for d in dojos%}
+                        <option value="{{d.id}}">{{d.name}}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div>
+                <label for="first_name">First name:</label><br>
+                <input type="text" name="first_name">
+            </div>
+            <div>
+                <label for="last_name">Last name:</label><br>
+                <input type="text" name="last_name">
+            </div>
+            <div>
+                <label for="age">Age:</label><br>
+                <input type="number" name="age">
+            </div>
+
+            <button>Add Ninja</button>
+        </form>
+    </div>
+    <div style="display: flex; justify-content:start;width: 220px">
+        <a href="/" style="font-weight:bold">Home</a>
+    </div>
+
+</body>
+</html>
