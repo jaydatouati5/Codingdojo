@@ -1,0 +1,37 @@
+
+.reg_container, .log_container{
+    width: 250px;
+    background-color: rgb(59, 57, 57);
+    box-sizing: border-box;
+    padding: 25px;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+input{
+    height: 25px;
+    border-radius: 7px;
+}
+
+.btn{
+    height: 35px;
+    border-radius: 8px;
+    margin-top: 15px;
+    width: 65px;
+}
+body, .reg_form{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+.msg{
+    width: 200px;
+    box-sizing: border-box;
+    background-color: rgb(244, 168, 181);
+    color: brown;
+    border-radius: 7px;
+}
