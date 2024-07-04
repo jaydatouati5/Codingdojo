@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Share </title>
+</head>
+<body>
+    <h1>Welcome {{user.first_name}}</h1>
+    <h3>All Posted Recipes :</h3>
+    <div>
+        <a href="/recipes/new">+Create</a>
+        <a href="/logout">Logout</a>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Under</th>
+                <th>Posted By</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for recipe in recipes %}
+            <tr>
+                
+                <td>{{recipe.name}}</td>
+                <td>
+                    {% if recipe.under_30 == 1 %}
+                    Yes
+                    {%else %}
+                    No
+                    {%endif%}
+                </td> 
+
+                <td>{{recipe.user.first_name}}</td> 
+                <td>
+                    <a href="">View recipe</a> 
+                    {%if user.id == recipe.user.id %}
+                    <a href="/recipes/edit/{{recipe.id}}">Edit</a> 
+                    <a href="">Delete</a> 
+                    {%endif%}
+                </td>
+            </tr>
+            {%endfor%}
+        </tbody>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes Share </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+     <!-- ! **************** registration -->
+    <div class="reg_container">
+        <h2 style="color: rgb(31, 118, 200);">Register</h2>
+            
+
+        <form action="/register" method="post">
+            <!-- ! **************** flashed messages -->
+            <div class="msg">
+                {% with messages = get_flashed_messages(category_filter=["register"]) %}
+                    {% if messages %}
+                        <h3>Alert!!</h3>
+                        {% for message in messages %}
+                            <p>{{message}}</p>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+            </div>
+            <label for="first_name">First Name: </label><br>
+            <input type="text" name="first_name"><br>
+            <label for="last_name">Last Name: </label><br>
+            <input type="text" name="last_name"><br>
+            <label for="email">Email: </label><br>
+            <input type="text" name="email"><br>
+            <label for="password">Password: </label><br>
+            <input type="password" name="password"><br>
+            <label for="confirm_password">Confirm password: </label><br>
+            <input type="password" name="confirm_password"><br> 
+            <div>
+                <button class="btn" style="background-color: rgb(31, 118, 200);">Register</button>
+            </div>
+        </form>
+    </div>
+
+    
+    <!-- ! **************** login -->
+    <div class="log_container">
+        
+        <h2 style="color: rgb(66, 181, 28);">Login</h2>
+
+        <form action="/login" method="post">
+            <!-- ! **************** flashed messages -->
+            <div class="msg">
+                {% with messages = get_flashed_messages(category_filter=["login"]) %}
+                    {% if messages %}
+                    <h3>Alert!!</h3>
+                        {% for message in messages %}
+                            <p>{{message}}</p>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+            </div>
+
+            <label for="email">Email: </label><br>
+            <input type="text" name="email"><br>
+            <label for="password">Password: </label><br>
+            <input type="password" name="password"><br>
+            <div>
+                <button class="btn" style="background-color: rgb(66, 181, 28);">Login</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

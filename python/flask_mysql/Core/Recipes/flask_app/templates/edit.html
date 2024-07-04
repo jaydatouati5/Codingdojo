@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes Share</title>
+</head>
+<body>
+    <h1>Edit Recipe!</h1>
+    <div>
+        <a href="/recipes">Back to recipes</a>
+        <a href="/logout">Logout</a>
+    </div>
+    <form action="/edit_recipe" method="post">
+        <label for="name">Recipe Name</label>
+        <input type="text" name="name" value="{{recipe.name}}">
+
+        <label for="description">Description</label>
+        <textarea name="description">{{recipe.description}}</textarea>
+
+        <label for="instructions">Instructions</label>
+        <textarea name="instructions" >{{recipe.instructions}}</textarea> 
+        <input type="hidden" name="user_id" value="{{user.id}}">
+
+        <label for="date_cooked">date_cooked:</label>
+        <input type="date" name="date_cooked" value="{{recipe.date_cooked}}">
+
+        <!-- radio buttons yes and no -->
+        <label for="under_30">Under 30 Minutes</label>
+        <input type="radio" name="under_30" value="1">Yes
+        <input type="radio" name="under_30" value="0">No 
+
+
+        <input type="submit" value="Add Recipe">
+
+    </form>
+</body>
+</html>
