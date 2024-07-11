@@ -100,7 +100,7 @@ console.log(genre);
 // console.log(genre); logs 'undefined'
 // genre = "disco"
 // rewind()
-// var genre = "v&b"
+// var genre = "r&b"
 // genre = "rock"
 // console.log(genre); logs "rock"
 // console.log(genre); logs "r&b"
