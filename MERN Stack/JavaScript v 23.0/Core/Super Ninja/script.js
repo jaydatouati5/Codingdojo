@@ -26,3 +26,8 @@ class Sensei extends Ninja{
         console.log("No pain, no gain")
     }
 }
+
+const newSensei = new Sensei ('jayda')
+newSensei.speakWisdom()
+newSensei.showStats()
+
