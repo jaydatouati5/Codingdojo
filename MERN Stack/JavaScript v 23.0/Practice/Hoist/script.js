@@ -104,7 +104,7 @@ console.log(genre);
 // genre = "rock"
 // console.log(genre); logs "rock"
 // console.log(genre); logs "r&b"
-// console.log(genre); logs"rock"
+// console.log(genre); logs"disco"
 
 // -------------------------------------------------------------------------------
 
