@@ -1,0 +1,17 @@
+.main {
+    background-color: #E06666;
+    border: 2px solid black;
+    flex-grow: 1;
+    height: 390px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub {
+    display: flex;
+    gap: 20px;
+    height: 80%;
+    flex: 8;
+}

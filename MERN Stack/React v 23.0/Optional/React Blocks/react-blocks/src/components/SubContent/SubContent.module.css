@@ -1,0 +1,6 @@
+.sub_content {
+    background-color: #FFD966;
+    border: 2px solid black;
+    height: 100%;
+    flex-grow: 1;
+}
