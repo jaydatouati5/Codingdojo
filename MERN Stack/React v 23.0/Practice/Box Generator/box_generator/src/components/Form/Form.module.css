@@ -1,0 +1,47 @@
+.form {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    align-items: center;
+}
+
+
+.form > label {
+    font-weight: bold;
+    color: rgb(201, 70, 91);
+}
+
+.form > input {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 10px;
+}
+
+.add {
+    border: 2px solid #5cb85c;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.reset {
+    border: 2px solid #d9534f;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #d9534f;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.add:hover {
+    background-color: #367436;
+}
+
+.reset:hover {
+    background-color: #692927;
+}
