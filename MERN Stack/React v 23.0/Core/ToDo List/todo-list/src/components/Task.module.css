@@ -1,0 +1,17 @@
+.task {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.task > span {
+    flex: 4;
+    text-align: start;
+}
+
+.task > span > input{
+    margin-right: 10px;
+}
+
+
