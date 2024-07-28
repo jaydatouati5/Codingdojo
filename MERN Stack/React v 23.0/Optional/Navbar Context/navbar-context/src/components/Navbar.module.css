@@ -23,3 +23,9 @@
     font-size: larger;
     color: rgb(161, 61, 61);
 }
+
+.input {
+    border-radius: 5px;
+    width: 170px;
+    font-size: large;
+}

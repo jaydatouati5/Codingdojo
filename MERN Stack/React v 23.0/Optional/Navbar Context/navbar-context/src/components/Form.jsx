@@ -9,8 +9,8 @@ const Form =(props) => {
         <form>
             <fieldset>
                 <legend className={styles.form}>Form </legend>
-            <label htmlFor="Name" className={styles.name}>Your Name :</label>
-            <input type="text" id="Name" onChange={(e) => context.setName(e.target.value)}/>
+                <label htmlFor="Name" className={styles.name}>Your Name :</label>
+                <input className= {styles.input}type="text" id="Name" onChange={(e) => context.setName(e.target.value)}/>
             </fieldset>
         </form>
     )
