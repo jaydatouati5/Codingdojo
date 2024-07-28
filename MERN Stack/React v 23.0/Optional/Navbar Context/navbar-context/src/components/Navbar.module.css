@@ -1,0 +1,25 @@
+.container{
+    background-color: blueviolet;
+    width: 100%;
+    padding: 1px;
+    display: flex;
+    justify-content: end;
+}
+
+.text{
+    margin-right: 35px;
+    font-style: oblique;
+    font-size: larger;
+    color: wheat;
+}
+
+.form{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: rgb(66, 121, 122);
+}
+
+.name{
+    font-size: larger;
+    color: rgb(161, 61, 61);
+}
