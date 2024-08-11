@@ -5,11 +5,13 @@ const JokeSchema = new mongoose.Schema
     {
         setup: 
         {
-            type: String
+            type: String,
+            required: [true, "The {PATH} field is required."]
         },
         punchline: 
         {
-            type: String
+            type: String,
+            required: [true, "The {PATH} field is required."]
         }
     },
     {timestamps: true}
