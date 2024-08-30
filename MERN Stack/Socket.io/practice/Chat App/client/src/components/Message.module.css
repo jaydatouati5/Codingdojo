@@ -1,0 +1,32 @@
+.user {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.other {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.other > div {
+    background-color: #e6e6e6;
+    padding: 2px 30px;
+    border-radius: 10px;
+    /* border: 1px solid #0e6b3d; */
+}
+
+.user > div {
+    background-color: #00B2FF;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.user > div > p {
+    margin: 0;
+}
+
+.other > div > p {
+    margin: 0;
+}
