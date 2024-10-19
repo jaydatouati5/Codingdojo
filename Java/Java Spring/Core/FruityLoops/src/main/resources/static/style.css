@@ -1,0 +1,33 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	width:50%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 20px
+}
+
+h1 {
+	color: #EF8080;
+}
+
+table {
+	border: 20px solid #FFB6C2;
+	border-spacing: 0;
+}
+
+th {
+	text-align: start;
+	padding: 5px;
+}
+
+td {
+	border-top: 2px solid #FFB6C2;
+	padding: 5px;
+}
