@@ -1,0 +1,15 @@
+D:\Jouda Coaching\CSharp\FuelUp\bin\Debug\net6.0\FuelUp.exe
+D:\Jouda Coaching\CSharp\FuelUp\bin\Debug\net6.0\FuelUp.deps.json
+D:\Jouda Coaching\CSharp\FuelUp\bin\Debug\net6.0\FuelUp.runtimeconfig.json
+D:\Jouda Coaching\CSharp\FuelUp\bin\Debug\net6.0\FuelUp.dll
+D:\Jouda Coaching\CSharp\FuelUp\bin\Debug\net6.0\FuelUp.pdb
+D:\Jouda Coaching\CSharp\FuelUp\obj\Debug\net6.0\FuelUp.csproj.AssemblyReference.cache
+D:\Jouda Coaching\CSharp\FuelUp\obj\Debug\net6.0\FuelUp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jouda Coaching\CSharp\FuelUp\obj\Debug\net6.0\FuelUp.AssemblyInfoInputs.cache
+D:\Jouda Coaching\CSharp\FuelUp\obj\Debug\net6.0\FuelUp.AssemblyInfo.cs
+D:\Jouda Coaching\CSharp\FuelUp\obj\Debug\net6.0\FuelUp.csproj.CoreCompileInputs.cache
+D:\Jouda Coaching\CSharp\FuelUp\obj\Debug\net6.0\FuelUp.dll
+D:\Jouda Coaching\CSharp\FuelUp\obj\Debug\net6.0\refint\FuelUp.dll
+D:\Jouda Coaching\CSharp\FuelUp\obj\Debug\net6.0\FuelUp.pdb
+D:\Jouda Coaching\CSharp\FuelUp\obj\Debug\net6.0\FuelUp.genruntimeconfig.cache
+D:\Jouda Coaching\CSharp\FuelUp\obj\Debug\net6.0\ref\FuelUp.dll
