@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A web Page</title>
+</head>
+<body>
+    <h1>Here are some delicous food !</h1>
+    @{
+        List<string> stringFood = new List<string>() {"Apple pie", "Pizza", "Cinnamon Rolls", "Lasagna","Donuts","Chocolate Cake", "Burritos"};
+        
+        @for (int i = 0; i < stringFood.Count; i++)
+        {
+            @if (stringFood[i].StartsWith("C"))
+            {
+                <p style="color: red;">@stringFood[i]</p>
+            }
+            else
+            {
+                <p>@stringFood[i]</p>
+            }
+        }
+    }
+</body>
+</html>
