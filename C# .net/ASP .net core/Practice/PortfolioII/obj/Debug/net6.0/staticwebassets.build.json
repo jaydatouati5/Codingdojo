@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "RR4Jll02lF3lBodibqylgHveKIMeuctTX+d8jYitpo8=",
+  "Source": "PortfolioII",
+  "BasePath": "_content/PortfolioII",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioII\\wwwroot",
+      "Source": "PortfolioII",
+      "ContentRoot": "C:\\Users\\NEWTEK\\Desktop\\programs coding dojo\\Codingdojo\\C# .net\\ASP .net core\\Practice\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
