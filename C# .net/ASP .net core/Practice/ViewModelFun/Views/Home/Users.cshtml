@@ -1,0 +1,12 @@
+@model List<User>
+<div class="text-center">
+    <a href="/">Message</a> |
+    <a href="/numbers">Numbers</a> |
+    <a href="user">User</a> |
+    <span>Users</span>
+    <h2 class="mt-4">Here is a List of Users</h2>
+    @foreach (User user in Model)
+    {
+        <p class="mt-4">@user.firstName @user.lastName</p>
+    }
+</div>

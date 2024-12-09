@@ -1,0 +1,12 @@
+@model int[]
+<div class="text-center">
+    <a href="/">Message</a> |
+    <span>Numbers</span> |
+    <a href="/user">User</a> |
+    <a href="/users">Users</a>
+    <h2 class="mt-4"><strong>Here are some numbers</strong></h2>
+    @foreach (int num in Model)
+    {
+    <p>@num</p>
+    }
+</div>
