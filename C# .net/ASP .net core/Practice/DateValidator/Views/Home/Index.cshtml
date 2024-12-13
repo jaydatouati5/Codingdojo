@@ -1,0 +1,10 @@
+﻿@model Birthday
+<form asp-action="Birthday" asp-controller="Home" method="post">
+    <div class="form-group">
+        <label asp-for="Date"></label>
+        <input asp-for="Date" class="form-control">
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+
+    <input type="submit" value="Add Birthday" class="btn btn-primary">
+</form>
