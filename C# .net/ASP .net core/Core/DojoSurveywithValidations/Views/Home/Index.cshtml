@@ -1,0 +1,45 @@
+﻿@model Survey
+
+<div class="text-center">
+    <form asp-action="Results" asp-controller="Home" method="post">
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input class="form-control" asp-for="Name">
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DojoLocation"></label>
+        <select class="form-select" asp-for="DojoLocation">
+            <option value="" disabled selected>Select Location</option>
+            <option value="San Jose">San Jose</option>
+            <option value="New York">New York</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Texas">Texas</option>
+        </select>
+        <span class="text-danger" asp-validation-for="DojoLocation"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FavoriteLanguage"></label>
+        <select class="form-select" asp-for="FavoriteLanguage">
+            <option value="" disabled selected>Select Language</option>
+            <option value="C#">C#</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+        <span class="text-danger" asp-validation-for="FavoriteLanguage"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Comment"></label>
+        <textarea asp-for="Comment" class="form-control"></textarea>
+        <span class="text-danger" asp-validation-for="Comment"></span>
+    </div>
+
+    <input type="submit" value="Submit" class="btn btn-primary">
+
+    </form>
+</div>
