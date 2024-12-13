@@ -1,6 +1,6 @@
 #pragma warning disable CS8618
 
-namespace DateValidator;
+namespace DateValidator.Models;
 
 using System.ComponentModel.DataAnnotations;
 

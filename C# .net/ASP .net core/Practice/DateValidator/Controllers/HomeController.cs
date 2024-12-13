@@ -12,10 +12,19 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
+    [HttpGet("success")]
+    public IActionResult Success()
+    {
+        return View();
+    }
 
     [HttpPost("birthday")]
     public IActionResult Birthday(Birthday birthday)
     {
+        if (ModelState.IsValid)
+        {
+            return RedirectToAction("Success");
+        }
         return View("index");
     }
     
