@@ -1,0 +1,37 @@
+﻿@model User
+
+    <form asp-action="Birthday" asp-controller="Home" method="post" class="d-flex justify-content-center flex-column">
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input class="form-control" asp-for="Name">
+            <span class="text-danger" asp-validation-for="Name" ></span>
+        </div>
+
+                <div class="form-group">
+            <label asp-for="EmailAddress"></label>
+            <input class="form-control" asp-for="EmailAddress">
+            <span class="text-danger" asp-validation-for="EmailAddress"></span>
+        </div>
+
+                <div class="form-group">
+            <label asp-for="Date"></label>
+            <input class="form-control" asp-for="Date">
+            <span class="text-danger" asp-validation-for="Date"></span>
+        </div>
+
+                <div class="form-group">
+            <label asp-for="Password"></label>
+            <input class="form-control" asp-for="Password">
+            <span class="text-danger" asp-validation-for="Password"></span>
+        </div>
+
+                <div class="form-group">
+            <label asp-for="FavoriteOddNumber"></label>
+            <input class="form-control" asp-for="FavoriteOddNumber">
+            <span class="text-danger" asp-validation-for="FavoriteOddNumber"></span>
+        </div>
+
+        <input class="btn btn-primary" type="submit" value="Submit">
+    </form>
+
+
