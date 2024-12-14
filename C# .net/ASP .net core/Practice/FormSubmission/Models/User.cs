@@ -49,9 +49,19 @@ public class OddNumbersAttribute : ValidationAttribute
 {
 protected override ValidationResult IsValid(object value, ValidationContext validationContext)
     {
-        if ((int)value % 2 == 0)
+        Boolean isPrime = true;
+        int number = (int)value;
+        for(int i = 2; i < number; i++)
         {
-            return new ValidationResult("Favorite Odd Number must be a whole odd number.");
+            if (number % i == 0){
+                isPrime = false;
+                break;
+            }
+        }
+
+        if (!isPrime)
+        {
+            return new ValidationResult("Favorite Odd Number must be a prime number.");
         } else {
             return ValidationResult.Success;
         }
