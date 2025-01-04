@@ -1,0 +1,45 @@
+@model Dish
+<div class="text-center">
+    <h1>Edit @Model.Name</h1>
+    <a href="/">Home</a> | <a href="/dishes/new">Add a Dish</a>
+</div>
+
+<form asp-action="UDish" asp-route-DishId="@Model.DishId" asp-controller="Home" method="post">
+    <div class="form-group mb-3">
+        <label asp-for="Name"></label>
+        <input class="form-control" asp-for="Name">
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Chef"></label>
+        <input class="form-control" asp-for="Chef">
+        <span class="text-danger" asp-validation-for="Chef"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Testiness"></label>
+        <select class="form-select" asp-for="Testiness">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <span class="text-danger" asp-validation-for="Testiness"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Calories"></label>
+        <input class="form-control" asp-for="Calories">
+        <span class="text-danger" asp-validation-for="Calories"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Description"></label>
+        <textarea class="form-control" asp-for="Description"></textarea>
+        <span class="text-danger" asp-validation-for="Description"></span>
+    </div>
+
+    <input type="submit" value="Edit Dish" class="btn btn-primary">
+</form>
