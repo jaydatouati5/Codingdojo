@@ -1,0 +1,70 @@
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\appsettings.Development.json
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\appsettings.json
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.staticwebassets.runtime.json
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.exe
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.deps.json
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.runtimeconfig.json
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.dll
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.pdb
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\Humanizer.dll
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\MySqlConnector.dll
+D:\Jouda Coaching\CSharp\LoginAndRegistration\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.csproj.AssemblyReference.cache
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.AssemblyInfoInputs.cache
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.AssemblyInfo.cs
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.csproj.CoreCompileInputs.cache
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.MvcApplicationPartsAssemblyInfo.cache
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.RazorAssemblyInfo.cache
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.RazorAssemblyInfo.cs
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\staticwebassets.build.json
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\staticwebassets.development.json
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\scopedcss\bundle\LoginAndRegistration.styles.css
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\scopedcss\projectbundle\LoginAndRegistration.bundle.scp.css
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.csproj.CopyComplete
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.dll
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\refint\LoginAndRegistration.dll
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.pdb
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.genruntimeconfig.cache
+D:\Jouda Coaching\CSharp\LoginAndRegistration\obj\Debug\net6.0\ref\LoginAndRegistration.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\appsettings.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.staticwebassets.runtime.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.exe
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.deps.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.runtimeconfig.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\LoginAndRegistration.pdb
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\Humanizer.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.csproj.AssemblyReference.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.AssemblyInfoInputs.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.AssemblyInfo.cs
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.csproj.CoreCompileInputs.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.RazorAssemblyInfo.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.RazorAssemblyInfo.cs
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\scopedcss\bundle\LoginAndRegistration.styles.css
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\scopedcss\projectbundle\LoginAndRegistration.bundle.scp.css
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.csproj.CopyComplete
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\refint\LoginAndRegistration.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.pdb
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\LoginAndRegistration.genruntimeconfig.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\LoginAndRegistration\obj\Debug\net6.0\ref\LoginAndRegistration.dll
