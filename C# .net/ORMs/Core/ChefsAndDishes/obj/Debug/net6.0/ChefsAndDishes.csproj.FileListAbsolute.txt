@@ -1,0 +1,70 @@
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\appsettings.Development.json
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\appsettings.json
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.staticwebassets.runtime.json
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.exe
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.deps.json
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.runtimeconfig.json
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.dll
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.pdb
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\Humanizer.dll
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\MySqlConnector.dll
+D:\Jouda Coaching\CSharp\ChefsAndDishes\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.csproj.AssemblyReference.cache
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.AssemblyInfoInputs.cache
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.AssemblyInfo.cs
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.csproj.CoreCompileInputs.cache
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.MvcApplicationPartsAssemblyInfo.cache
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.RazorAssemblyInfo.cache
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.RazorAssemblyInfo.cs
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\staticwebassets.build.json
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\staticwebassets.development.json
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\scopedcss\bundle\ChefsAndDishes.styles.css
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\scopedcss\projectbundle\ChefsAndDishes.bundle.scp.css
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.csproj.CopyComplete
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.dll
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\refint\ChefsAndDishes.dll
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.pdb
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.genruntimeconfig.cache
+D:\Jouda Coaching\CSharp\ChefsAndDishes\obj\Debug\net6.0\ref\ChefsAndDishes.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\appsettings.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.staticwebassets.runtime.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.exe
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.deps.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.runtimeconfig.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\ChefsAndDishes.pdb
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\Humanizer.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.csproj.AssemblyReference.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.AssemblyInfoInputs.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.AssemblyInfo.cs
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.csproj.CoreCompileInputs.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.RazorAssemblyInfo.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.RazorAssemblyInfo.cs
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\scopedcss\bundle\ChefsAndDishes.styles.css
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\scopedcss\projectbundle\ChefsAndDishes.bundle.scp.css
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.csproj.CopyComplete
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\refint\ChefsAndDishes.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.pdb
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ChefsAndDishes.genruntimeconfig.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ChefsAndDishes\obj\Debug\net6.0\ref\ChefsAndDishes.dll

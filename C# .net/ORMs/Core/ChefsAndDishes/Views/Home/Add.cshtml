@@ -1,0 +1,49 @@
+@model ChefsAndDishes.Models.Chef
+
+@{
+    ViewData["Title"] = "Add a Chef";
+}
+
+<div class="container mt-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse d-flex justify-content-center">
+            <ul class="navbar-nav d-flex align-items-center">
+                <li class="nav-item active">
+                    <a class="nav-link text-primary" href="/">Chefs</a>
+                </li>
+                |
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="/dishes">Dishes</a>
+                </li>
+                |
+                <li class="nav-item">
+                    <span class="nav-link">Add a Chef</span>
+                </li>
+                |
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="/dishes/add">Add a Dish</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h2 class="text-center mt-4">Add a New Chef</h2>
+    <hr>
+    <form asp-action="Add" method="post" class="needs-validation">
+        <div class="form-group">
+            <label asp-for="FirstName" class="form-label"></label>
+            <input asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName" class="text-danger d-block" style="min-height: 1.5em; font-size: 0.8rem;"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName" class="form-label"></label>
+            <input asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger d-block" style="min-height: 1.5em; font-size: 0.8rem;"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="DateOfBirth" class="form-label"></label>
+            <input asp-for="DateOfBirth" class="form-control" />
+            <span asp-validation-for="DateOfBirth" class="text-danger d-block" style="min-height: 1.5em; font-size: 0.8rem;"></span>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Add Chef</button>
+    </form>
+</div>
