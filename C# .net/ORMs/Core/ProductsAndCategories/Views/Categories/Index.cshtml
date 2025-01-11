@@ -1,0 +1,49 @@
+@model Category
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Categories</title>
+</head>
+<body>
+    <header class="container d-flex flex-column justify-content-center align-items-center">
+        <h1 class="my-4">Categories</h1>
+        <nav class="mb-4">
+            <a href="/" class="btn btn-link">Products</a>
+            <a href="/categories" class="btn btn-link">Categories</a>
+        </nav>
+    </header>
+    <div class="container d-flex gap-4">
+        <section class="mb-4 flex-grow-1">
+            <h2>New Category</h2>
+            <form asp-action="Create" asp-controller="Categories" method="post" class="form-inline">
+                <div class="form-group mb-2">
+                    <label asp-for="Name" class="sr-only"></label>
+                    <input asp-for="Name" class="form-control mr-2">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-success mb-2">Create</button>
+            </form>
+        </section>
+        <section class="mb-4 flex-grow-1">
+            <h2>All Categories</h2>
+            <ul class="list-group">
+                @if (ViewBag.Categories.Count > 0)
+                {
+                    @foreach (var category in ViewBag.Categories)
+                    {
+                        <li class="list-group-item">
+                            <a href="/categories/@category.CategoryId">@category.Name</a>
+                        </li>
+                    }
+                }
+                else
+                {
+                    <li class="list-group-item">No categories available.</li>
+                }
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

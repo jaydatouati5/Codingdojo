@@ -1,0 +1,70 @@
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\appsettings.Development.json
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\appsettings.json
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.staticwebassets.runtime.json
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.exe
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.deps.json
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.runtimeconfig.json
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.dll
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.pdb
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\Humanizer.dll
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\MySqlConnector.dll
+D:\Jouda Coaching\CSharp\ProductsAndCategories\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.csproj.AssemblyReference.cache
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.AssemblyInfoInputs.cache
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.AssemblyInfo.cs
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.csproj.CoreCompileInputs.cache
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.MvcApplicationPartsAssemblyInfo.cache
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.RazorAssemblyInfo.cache
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.RazorAssemblyInfo.cs
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\staticwebassets.build.json
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\staticwebassets.development.json
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\scopedcss\bundle\ProductsAndCategories.styles.css
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\scopedcss\projectbundle\ProductsAndCategories.bundle.scp.css
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.csproj.CopyComplete
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.dll
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\refint\ProductsAndCategories.dll
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.pdb
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.genruntimeconfig.cache
+D:\Jouda Coaching\CSharp\ProductsAndCategories\obj\Debug\net6.0\ref\ProductsAndCategories.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\appsettings.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.staticwebassets.runtime.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.exe
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.deps.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.runtimeconfig.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\ProductsAndCategories.pdb
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\Humanizer.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.csproj.AssemblyReference.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.AssemblyInfoInputs.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.AssemblyInfo.cs
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.csproj.CoreCompileInputs.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.RazorAssemblyInfo.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.RazorAssemblyInfo.cs
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\scopedcss\bundle\ProductsAndCategories.styles.css
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\scopedcss\projectbundle\ProductsAndCategories.bundle.scp.css
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.csproj.CopyComplete
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\refint\ProductsAndCategories.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.pdb
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ProductsAndCategories.genruntimeconfig.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\ORMs\Core\ProductsAndCategories\obj\Debug\net6.0\ref\ProductsAndCategories.dll

@@ -1,0 +1,45 @@
+@model ProductsAndCategories.Models.Association
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@Model.Product.Name</title>
+</head>
+<body>
+    <header class="container d-flex flex-column justify-content-center align-items-center">
+        <nav class="mb-4">
+            <a href="/" class="btn btn-link">Products</a>
+            <a href="/categories" class="btn btn-link">Categories</a>
+        </nav>
+        <h1 class="my-4">@Model.Product.Name</h1>
+    </header>
+    <div class="container d-flex gap-4">
+        <section class="mb-4 flex-grow-1">
+            <h2>Categories</h2>
+            <ul class="list-group">
+                @foreach (var association in Model.Product.Associations)
+                {
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        @association.Category.Name
+                        <form asp-action="DeleteCategory" asp-controller="Products" asp-route-id="@Model.ProductId" method="post" class="d-inline">
+                            <input type="hidden" name="categoryId" value="@association.CategoryId">
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </li>
+                }
+            </ul>
+        </section>
+        <section class="mb-4 flex-grow-1">
+            <h2>Add Category</h2>
+            <form asp-action="AddCategory" asp-route-id="@Model.ProductId" method="post" class="form-inline">
+                <div class="form-group mb-2">
+                    <select asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories, "CategoryId", "Name"))" class="form-select mr-2"></select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-success mb-2">Add</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
