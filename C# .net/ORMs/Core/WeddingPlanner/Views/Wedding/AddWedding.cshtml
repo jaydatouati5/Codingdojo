@@ -1,0 +1,41 @@
+@{
+    ViewData["Page"] = "AddWedding";
+}
+
+@model Wedding
+
+<div class="container">
+    @await Html.PartialAsync("_Header")
+    
+
+    <form asp-action="CreateWedding" asp-controller="Wedding" method="post">
+
+        <div class="mb-3">
+            <label asp-for="Wife" class="form-label"></label>
+            <input asp-for="Wife" class="form-control">
+            <span asp-validation-for="Wife" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Husband" class="form-label"></label>
+            <input asp-for="Husband" class="form-control">
+            <span asp-validation-for="Husband" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Date" class="form-label"></label>
+            <input asp-for="Date" class="form-control">
+            <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Address" class="form-label"></label>
+            <input asp-for="Address" class="form-control">
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+
+        <div>
+            <input type="submit" value="Create" class="btn btn-primary">
+        </div>
+    </form>
+</div>
